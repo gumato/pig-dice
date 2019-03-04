@@ -10,11 +10,23 @@
   </head>
   <body>
     <div class="container">
+      <h1>Pig Dice</h1>
+
+      <form>
+        <div id="newPlayer">
+        <input type="text" name="" value="" placeholder="Enter Player 1 name" id="new-player-1">
+        <input type="text" name="" value="" placeholder="Enter Player 1 name" id="new-player-1">
+        <button type="submit" name="button" class="start">Start Game</button>
+      </div>
+      </form>
+    </div>
+    <div class="container">
       <div class="row">
         <div class="col-md-6" id ="player1">
           <div class="okay">
           <h1>PLAYER 1</h1>
-          <p id=""></p>
+
+          <p id="new"></p>
             </div>
           <div class="onecurrent">CURRENT </div>
 
@@ -23,13 +35,13 @@
         <div class="col-md-6">
           <div class="okay">
             <h1>PLAYER 2</h1>
-            <p id=""></p>
+            <p id="new"></p>
           </div>
           <div class="twocurrent">CURRENT </div>
         </div>
         <div class="buttons">
         <input type="button" name="" value="ROLL DICE">
-        <input type="button" name="" value="HOLD">
+        <input type="submit" name="" value="HOLD" onclick="check();" >
         </div>
       </div>
 
