@@ -1,0 +1,38 @@
+.container{
+  width: 1000px;
+}
+.row{
+  margin-left: 0px;
+}
+ .okay{
+  height: 300px;
+}
+.twocurrent{
+  border:2px solid white;
+  background-color: green;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+}
+.onecurrent{
+  border:2px solid white;
+  background-color: green;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+}
+.buttons{
+  margin-left: 220px;
+}
+input[type=button]{
+  background-color: pink;
+  padding: 12px 20px;
+  width: 120px;
+  border-radius: 5px;
+  height: 40px;
+
+}
+body{
+  background-color: orange;
+  background-image:url('../img/gd.jpg');
+}
