@@ -1,8 +1,8 @@
-# {JAVASCRIPT QUIZ}
-####javascript.24th february 2019}
+# {PIG DICE GAME}
+####Pig dice.3rd march 2019}
 #### By **Gumato Sharamo**
 ## Description
-JAVASCRIPT quiz is web page that is used to asked question and get answers from the question.          
+Pig dice is game used to place among two or more people and winning again each other.       
 #{Authors information}
  Am Gumato,i studied at Dukana girls primary school,i went to North-horr girls high school.After finishing my high i dream of leaning more about computer and i apply for moringaschool online and am now studing coding in moringaschool.
 ## Setup/Installation Requirements
@@ -19,7 +19,7 @@ JAVASCRIPT quiz is web page that is used to asked question and get answers from 
 *CSS
 *javascript
 ## Support and contact details
-To get access to live demo click on this link https://github.com/gumato/computer-project
+To get access to live demo click on this link https://github.com/gumato/pig-dice
 ### License
 [GNU Affero General Public License v3.0] https://choosealicense.com/licenses/agpl-3.0/
 *{ }
