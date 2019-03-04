@@ -26,13 +26,14 @@
 }
 input[type=button]{
   background-color: pink;
-  padding: 12px 20px;
-  width: 120px;
+  padding: 12px 20px;:  width: 120px;
   border-radius: 5px;
   height: 40px;
 
 }
 body{
   background-color: orange;
-  background-image:url('../img/gd.jpg');
+  background-image:url('../img/406913.jpg');
+  background-size:cover;
+  player1-image:url('../img/gm.jpg')
 }
