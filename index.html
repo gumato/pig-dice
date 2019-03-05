@@ -6,11 +6,11 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
+
   </head>
   <body>
       <h1>Pig Dice</h1>
-   <div class="reg">
+   <div id="reg">
 
         <div id="newPlayer">
         <input type="text" name="" value="" placeholder="Enter Player 1 name" id="new-player-1">
@@ -20,7 +20,7 @@
 
     </div>
 
-    <div class="game">
+    <div id="game">
     <div class="container">
       <div class="row">
         <div class="col-md-6" id ="player1">
@@ -28,9 +28,10 @@
           <h1>PLAYER 1</h1>
           <p id="pl1"></p>
           <div class="">Total Score:  </div>
-          <p id="new"></p>
+          <p id="total-1"></p>
             </div>
-          <div class="onecurrent" > <p id="show1">CURRENT</p> </div>
+          <div class="onecurrent" > <p>Roll value</p><p id="show1"></p> </div>
+          <div class="onecurrent" > <p>Current Score1</p><p id="currentScore1"></p> </div>
 
 
         </div>
@@ -39,19 +40,18 @@
             <h1>PLAYER 2</h1>
               <p id="pl2"></p>
             <div class="">Total Score:  </div>
-            <p id="new"></p>
+            <p id="total-2"></p>
           </div>
-          <div class="twocurrenCURRENT
-t"><p id="show2">CURRENT</p> </div>
-        </div>CURRENT
+          <div class="twocurrent"><p id="show2">TWO CURRENT</p> </div>
+          <div class="onecurrent" > <p>Current Score2</p><p id="currentScore2"></p> </div>
 
-      </div>
-   <button id="roll1" type="button" class="btn btn-primary" onclick="roll1()">roll</button>
-   <button id="hold1" type="button" class="btn btn-primary" >hold</button>
-   <button id="roll2" type="button" class="btn btn-primary" onclick="roll2()">roll</button>
-   <button id="hold2" type="button" class="btn btn-primary" >hold</button>
+   <button id="roll1" type="button" class="btn btn-primary" onclick="roll1()">roll player1</button>
+   <button id="hold1" type="button" class="btn btn-primary" >hold player1</button>
+   <button id="roll2" type="button" class="btn btn-primary" onclick="roll2()">roll player2</button>
+   <button id="hold2" type="button" class="btn btn-primary" >hold player2</button>
 
     </div>
 </div>
+  <script src="js/scripts.js"></script>
   </body>
 </html>

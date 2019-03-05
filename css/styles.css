@@ -1,3 +1,6 @@
+#game{
+  display: none;
+}
 .container{
   width: 1000px;
 }
@@ -42,7 +45,7 @@ input[type=button]{
 }
 body{
   background-color: orange;
-  background-image:url('../img/406913.jpg');
+  background-image:url('../img/gh.jpg');
   background-size:cover;
-  player1-image:url('../img/gm.jpg')
+  color:#fdffdc;
 }
