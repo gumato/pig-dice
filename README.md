@@ -13,7 +13,7 @@ Pig dice is game used to place among two or more people and winning again each o
 ## Behavior Driven Development"
 | BEHAVIOR     | INPUT    | OUTPUT  |
 | :-------------: | :-------------: | :-------------: |
-| when someone asked question it determine whether the answer is correct or not      | someone choose on answer from the one provided      | it shows whether its right or wrong|              
+|when some plays the game it show where they win or loose       | someone roll the dice when it his/her turn      | it shows whether he/she is loosing or winning|              
 ## Technologies Used
 *HTML
 *CSS
