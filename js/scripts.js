@@ -1,22 +1,22 @@
 
-  var currScore1 = 0;
-  var totSum1 = 0;
-  var sum1 = [];
-  var sum2 = [];
-  var totSum2 = 0;
-  var currScore2 = 0;
+var currScore1 = 0;
+var totSum1 = 0;
+var sum1 = [];
+var sum2 = [];
+var totSum2 = 0;
+var currScore2 = 0;
 
 
 $(document).ready(function(){
 
-$("button#start").click(function(){
-  $("#reg").hide();
-  $("#game").show();
-  var name1=$("input#new-player-1").val();
-  var name2=$("input#new-player-2").val();
-  $("#pl1").text(name1);
-  $("#pl2").text(name2);
-});
+  $("button#start").click(function(){
+    $("#reg").hide();
+    $("#game").show();
+    var name1=$("input#new-player-1").val();
+    var name2=$("input#new-player-2").val();
+    $("#pl1").text(name1);
+    $("#pl2").text(name2);
+  });
 });
 
 
@@ -25,7 +25,7 @@ function roll1(){
   $("#show1").text(rollDice1);
   if( rollDice1 === 1){
     currScore1=0;
-      sum1 = [];
+    sum1 = [];
   }
   else{
     currScore1 += rollDice1;
@@ -53,7 +53,7 @@ function roll2(){
   $("#show2").text(rollDice2);
   if( rollDice2 === 1){
     currScore2=0;
-      sum2 = [];
+    sum2 = [];
   }
   else{
     currScore2 += rollDice2;
