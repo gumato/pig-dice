@@ -1,3 +1,6 @@
+#game{
+  display: none;
+}
 .container{
   width: 1000px;
 }
@@ -14,6 +17,15 @@
   height: 100px;
   text-align: center;
 }
+/* .game{
+  display: none;
+} */
+/* #roll player1{
+  margin-center: 550px;
+}
+#hold{
+  margin-left: 250px;
+} */
 .onecurrent{
   border:2px solid white;
   background-color: green;
@@ -26,13 +38,20 @@
 }
 input[type=button]{
   background-color: pink;
-  padding: 12px 20px;
-  width: 120px;
+  padding: 12px 20px;:  width: 120px;
   border-radius: 5px;
   height: 40px;
 
 }
 body{
   background-color: orange;
-  background-image:url('../img/gd.jpg');
+  background-image:url('../img/gh.jpg');
+  background-size:cover;
+  color:#fdffdc;
+}
+input{
+  color: red;
+}
+#start{
+  color: red;
 }
