@@ -35,10 +35,10 @@ input[type=button]{
 
 }
 body{
-  background-color: orange;
   background-image:url('../img/gh.jpg');
   background-size:cover;
   color:#fdffdc;
+  font-family: 'Libre Franklin', sans-serif;
 }
 input{
   color: red;
@@ -48,4 +48,9 @@ input{
 }
 .player2section{
   margin-left: 120px;
+}
+.title-intro{
+
+  font-size: 50px;
+  margin-left: 400px;
 }
