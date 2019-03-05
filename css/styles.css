@@ -20,8 +20,8 @@
 /* .game{
   display: none;
 } */
-#roll{
-  margin-left: 150px;
+#roll player1{
+  margin-center: 550px;
 }
 #hold{
   margin-left: 250px;
