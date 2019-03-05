@@ -17,15 +17,6 @@
   height: 100px;
   text-align: center;
 }
-/* .game{
-  display: none;
-} */
-/* #roll player1{
-  margin-center: 550px;
-}
-#hold{
-  margin-left: 250px;
-} */
 .onecurrent{
   border:2px solid white;
   background-color: green;
@@ -54,4 +45,7 @@ input{
 }
 #start{
   color: red;
+}
+.player2section{
+  margin-left: 120px;
 }
