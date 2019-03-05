@@ -4,7 +4,7 @@
 ## Description
 Pig dice is game used to place among two or more people and winning again each other.       
 #{Authors information}
- Am Gumato,i studied at Dukana girls primary school,i went to North-horr girls high school.After finishing my high i dream of leaning more about computer and i apply for moringaschool online and am now studing coding in moringaschool.
+Am Gumato,i studied at Dukana girls primary school,i went to North-horr girls high school.After finishing my high i dream of leaning more about computer and i apply for moringaschool online and am now studing coding in moringaschool.
 ## Setup/Installation Requirements
 * Have a functional github account
 * on my github profile,selectthe project name javascrips quiz

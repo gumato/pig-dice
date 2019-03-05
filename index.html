@@ -1,61 +1,54 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>pig dice game</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
-<script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-
-  </head>
-  <body>
-      <h1 class="title-intro">Pig Dice</h1>
-   <div id="reg">
-
-        <div id="newPlayer">
-        <input type="text" name="" value="" placeholder="Enter Player 1 name" id="new-player-1">
-        <input type="text" name="" value="" placeholder="Enter Player 2 name" id="new-player-2">
-        <button id="start" type="button" name="button" >Start Game</button>
-      </div>
-
+<head>
+  <meta charset="utf-8">
+  <title>pig dice game</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+  <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1 class="title-intro">Pig Dice</h1>
+  <div id="reg">
+    <div id="newPlayer">
+      <input type="text" name="" value="" placeholder="Enter Player 1 name" id="new-player-1">
+      <input type="text" name="" value="" placeholder="Enter Player 2 name" id="new-player-2">
+      <button id="start" type="button" name="button" >Start Game</button>
     </div>
-
-    <div id="game">
+  </div>
+  <div id="game">
     <div class="container">
       <div class="row">
         <div class="col-md-6" id ="player1">
           <div class="okay">
-          <h1>PLAYER 1</h1>
-          <p id="pl1"></p>
-          <div class="">Total Score:  </div>
-          <p id="total-1"></p>
-            </div>
-            <div class="player1section">
-          <div class="onecurrent" > <p>ROLL VALUE1</p><p id="show1"></p> </div>
-          <div class="onecurrent" > <p>Current Score1</p><p id="currentScore1"></p> </div>
-          <button id="roll1" type="button" class="btn btn-primary" onclick="roll1()">ROLL</button>
-          <button id="hold1" type="button" class="btn btn-primary" >HOLD</button>
-        </div>
+            <h1>PLAYER 1</h1>
+            <p id="pl1"></p>
+            <div class="">Total Score:  </div>
+            <p id="total-1"></p>
+          </div>
+          <div class="player1section">
+            <div class="onecurrent" > <p>ROLL VALUE1</p><p id="show1"></p> </div>
+            <div class="onecurrent" > <p>Current Score1</p><p id="currentScore1"></p> </div>
+            <button id="roll1" type="button" class="btn btn-primary" onclick="roll1()">ROLL</button>
+            <button id="hold1" type="button" class="btn btn-primary" >HOLD</button>
+          </div>
         </div>
         <div class="col-md-6">
           <div class="okay">
             <h1>PLAYER 2</h1>
-              <p id="pl2"></p>
+            <p id="pl2"></p>
             <div class="">Total Score:  </div>
             <p id="total-2"></p>
           </div>
           <div class="player2section">
-          <div class="twocurrent"><p id="show2">ROLL VALUE2</p> </div>
-          <div class="onecurrent" > <p>Current Score2</p><p id="currentScore2"></p> </div>
-
-
-   <button id="roll2" type="button" class="btn btn-primary" onclick="roll2()">ROLL</button>
-   <button id="hold2" type="button" class="btn btn-primary" >HOLD</button>
-
- </div>
-    </div>
-</div>
-  <script src="js/scripts.js"></script>
-  </body>
-</html>
+            <div class="twocurrent"><p id="show2">ROLL VALUE2</p> </div>
+            <div class="onecurrent" > <p>Current Score2</p><p id="currentScore2"></p> </div>
+            <button id="roll2" type="button" class="btn btn-primary" onclick="roll2()">ROLL</button>
+            <button id="hold2" type="button" class="btn btn-primary" >HOLD</button>
+          </div>
+        </div>
+      </div>
+      <script src="js/scripts.js"></script>
+    </body>
+    </html>
