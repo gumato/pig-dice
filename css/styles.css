@@ -20,12 +20,12 @@
 /* .game{
   display: none;
 } */
-#roll player1{
+/* #roll player1{
   margin-center: 550px;
 }
 #hold{
   margin-left: 250px;
-}
+} */
 .onecurrent{
   border:2px solid white;
   background-color: green;
@@ -48,4 +48,10 @@ body{
   background-image:url('../img/gh.jpg');
   background-size:cover;
   color:#fdffdc;
+}
+input{
+  color: red;
+}
+#start{
+  color: red;
 }
